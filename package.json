@@ -1,0 +1,28 @@
+{
+  "name": "sanar-telemedicine",
+  "version": "0.0.1",
+  "description": "Sanar Telemedicine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sanar",
+    "Telemedicine"
+  ],
+  "author": "Maren",
+  "license": "ISC",
+  "peerDependencies": {
+    "@react-navigation/native": "^5.9.4",
+    "react": "^16.0.0",
+    "react-native": "^0.55",
+    "react-native-agora": "^3.5.0",
+    "react-native-webview": "^7.0.6"
+  },
+  "dependencies": {
+    "react-native-agora": "^3.5.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-svg-icon": "^0.10.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
