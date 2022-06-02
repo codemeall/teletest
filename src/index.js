@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useReducer } from "react";
 import { StyleSheet, Text } from 'react-native';
 
-import { SANAR_EVENT_TYPE, CONNECTION_STATUS } from "./src/Types";
-import { TELECALL, MESSAGE, ACCEPT_CALL, END_CALL, REJECT_CALL } from "./src/common/constants";
+import { SANAR_EVENT_TYPE, CONNECTION_STATUS } from "./Types";
+import { TELECALL, MESSAGE, ACCEPT_CALL, END_CALL, REJECT_CALL } from "./common/constants";
 
-import Connection from "./src/Connection";
-import Ringer from "./src/components/Ringer";
-import RtcView from "./src/RtcView";
-import Telemedicine from "./src/Telemedicine";
+import Connection from "./Connection";
+import Ringer from "./components/Ringer";
+import RtcView from "./RtcView";
+import Telemedicine from "./Telemedicine";
 
 const SanarTelemedicine = ({
     connectUrl,
